@@ -1,6 +1,6 @@
 # Basic API
 
-This solutions shows a basic API application for managing websites. It has an API for CRUD operations, validation, exception handling and code first design pattern.
+The solution shows a basic API application for managing websites. It has an API for CRUD operations, validation, exception handling and code first design pattern.
 It uses latest stable .NET Core version and some parts are covered with Unit tests. 
 
 ### Database
