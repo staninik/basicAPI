@@ -9,11 +9,6 @@ namespace BasicAPI.Models
 
         }
 
-        public CategoryModel(string code, string name)
-        {
-            Code = code;
-            Name = name;
-        }
         public CategoryModel(Category category)
         {
             Code = category.Code;

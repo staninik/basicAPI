@@ -31,7 +31,6 @@ namespace BasicAPI.Controllers
             return Ok(result);
         }
 
-
         [HttpPost]
         public async Task<IActionResult> PostAsync([FromBody] WebsiteAddModel model)
         {

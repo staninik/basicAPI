@@ -30,6 +30,7 @@ namespace BasicAPI.Models
             return results;
         }
 
+        #region Private Methods
         private bool IsEmailValid(string email)
         {
             try
@@ -42,5 +43,6 @@ namespace BasicAPI.Models
                 return false;
             }
         }
+        #endregion
     }
 }

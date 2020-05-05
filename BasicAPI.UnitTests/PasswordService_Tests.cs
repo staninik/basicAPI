@@ -20,7 +20,6 @@ namespace BasicAPI.UnitTests
             var hash = passwordService.HashPassword("LD4eiGRUsKs2f4L7PwJlFQ==", "Password!");
 
             Assert.AreEqual("H1ijpjW52arMZhqQuyDManNi/01f62q/NK1DNckH3sE=", hash, "Hashed password should be equal");
-
         }
 
         [Test]
