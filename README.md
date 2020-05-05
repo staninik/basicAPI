@@ -5,7 +5,7 @@ It uses latest stable .NET Core version and some parts are covered with Unit tes
 
 ### Database
 
-The application uses Local database. If needed change the connection string in the appsettings.Development.json file in the root folder of the API project.
+The application uses local database. If needed change the connection string in the appsettings.Development.json file in the root folder of the API project.
 The application used Code first design pattern so the database will be created and seeded with data on the first run of the application. 
 
 ### Tests
